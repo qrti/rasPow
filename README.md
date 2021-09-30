@@ -22,7 +22,7 @@ For Raspberry version 3 MOSFET Q3 can be utilized, but it has to be desoldered, 
 Edit a new file in your home directory  
 `nano shutdown.py`
 
-Adapt it for your GPIO wishes
+Adapt it to your GPIO wishes
 ```
 ##! /usr/bin/env python
 import os
