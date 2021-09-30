@@ -79,7 +79,7 @@ SHUT_
 The shutdown.py script configures this pin a pulled up input and then waits for a low to shut down the Raspberry safely.
 
 POWER  
-The ATTINY controller sets this line to switch the Raspberry's supply via MOSFET Q1 and Q3.
+The ATTINY controller uses this line to switch the Raspberry's supply via MOSFET Q1 and Q3.
 
 JP1  
 In 'ISP' (ICSP) mode the connector allows programming the controller 'in circuit' with a suitable device. In operational 'OP' mode JP1 is connected according the schematic to CHKRUN_, SHUT_ and POWER.
