@@ -5,7 +5,7 @@
 <br>
 
 ### **Function**
-Initially the Raspberry is cut from 5 V USB supply, power is established after the push button on the ATTINY microcontroller is pressed. The controller detects if Raspberry OS is completely booted, then a anew button press will shutdown Raspberry OS safely. The controller detects if the Raspberry is completely shutdown and disconnect it from power after some seconds. If Raspberry OS does not respond in any way, a long button press, like on PC power buttons, will cut the power and allow to restart again.
+Initially the Raspberry is cut from 5 V USB supply, power is established after the push button on the ATTINY microcontroller is pressed. The controller detects if Raspberry OS is completely booted, then a anew button press will shutdown Raspberry OS safely. The controller detects if the Raspberry is completely shutdown and disconnects it from power after some seconds. If Raspberry OS does not respond in any way, a long button press will cut the power, like PC power buttons do.
 
 <br>
 
