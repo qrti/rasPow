@@ -70,6 +70,8 @@ LED1 signals the state of operation
 <br>
 
 ### **Schematic**
+<img src="images/rasPow_schematic.png" width=1024>
+
 The version utilizing Q3 on Raspberry PCB is shown, the 'Raspi PCB' named part must be adapted analogous for cable ripping or replacing F1 variants. 
 
 CHKRUN_  
@@ -89,10 +91,6 @@ Because of the unsteady 5 V supply on the end of USB-cables a 3.3 V voltage regu
 
 R1  
 Guarantees the Raspberry is controlled powered off before the ATTINY controller has started (when supply voltage rises) or the controller is disconnected.
-
-<br>
-
-<img src="images/rasPow_schematic.png" width=1024>
 
 <br>
 <br>
